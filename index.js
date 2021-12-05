@@ -640,6 +640,19 @@ const ERC20 = {
         },
 
     },
+    5:{ // Goerli 
+        "0x0000000000000000000000000000000000000000": {
+            decimals: 18,
+            symbol: "ETH",
+            name: "Ether",
+            color: "#000000",
+            address:"0x0000000000000000000000000000000000000000",
+            compound:"",
+            aave: "",
+            yearn: ""
+        },
+
+    },
 
 
     137:{ // POLYGON
