@@ -334,9 +334,19 @@ const ERC20 = {
             decimals: 18,
             symbol: "ZRX",
             name: "0x Protocol Token",
-            color: "#231815",
+            color: "#085229",
             compound: "0xB3319f5D18Bc0D84dD1b4825Dcde5d5f7266d407",
             aave: "0xDf7FF54aAcAcbFf42dfe29DD6144A69b629f8C9e",
+            yearn: ""
+        },
+        "0x8E870D67F660D95d5be530380D0eC0bd388289E1": {
+            address:"0x8E870D67F660D95d5be530380D0eC0bd388289E1",
+            decimals: 18,
+            symbol: "USDP",
+            name: "PAX Dollar",
+            color: "#085229",
+            compound: "0x041171993284df560249B57358F931D9eB7b925D",
+            aave: "0x2e8F4bdbE3d47d7d7DE490437AeA9915D930F1A3",
             yearn: ""
         },
         "0x5d3a536E4D6DbD6114cc1Ead35777bAB948E3643": {
