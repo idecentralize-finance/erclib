@@ -1,6 +1,6 @@
 {
   "name": "@idecentralize/erclib",
-  "version": "1.3.1",
+  "version": "1.3.2",
   "description": "ERC library for blockchain development",
   "main": "index.js",
   "type": "module",
@@ -24,7 +24,9 @@
     "idecentralize.finance",
     "crypto",
     "logo",
-    "decentralize"
+    "decentralize",
+    "ethereum",
+    "polygon"
   ],
   "author": "Ian Decentralize",
   "license": "GPL-3.0",

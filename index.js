@@ -1,5 +1,19 @@
 
+const ROUTER = {
 
+    1:{
+        // ETHEREUM EXCHANGES
+    },
+    137:{
+        // POLYGON
+        polycat: "0x94930a328162957FF1dd48900aF67B5439336cBD",
+        sushiswap: "0x1b02da8cb0d097eb8d57a175b88c7d8b47997506",
+        quickswap: "0xa5e0829caced8ffdd4de3c43696c57f7d7a678ff",
+        cometswap: "0x93bcdc45f7e62f89a8e901dc4a0e2c6c427d9f25"
+
+    }
+
+}
 const NETWORK =
 {
     // 72: {     // NOT yet ready for testing. see idecentralize.finance BOT project
@@ -699,6 +713,46 @@ const ERC20 = {
             address:"0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
             aave: "0x1a13F4Ca1d028320A707D99520AbFefca3998b7F"
         },
+        "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270": {
+            decimals: 18,
+            symbol: "WMATIC",
+            name: "Wrapped Matic (WMATIC)",
+            color: "#8247e5",
+            address:"0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+            aave: "0x8dF3aad3a84da6b69A4DA8aeC3eA40d9091B2Ac4"
+        },
+        "0xc2132D05D31c914a87C6611C10748AEb04B58e8F": {
+            decimals: 6,
+            symbol: "USDT",
+            name: "(PoS) Tether USD (USDT)",
+            color: "#50af95",
+            address:"0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+            aave: "0x60D55F02A771d515e077c9C2403a1ef324885CeC"
+        },
+        "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6": {
+            decimals: 8,
+            symbol: "WBTC",
+            name: "(PoS) Wrapped BTC (WBTC)",
+            color: "#f09242",
+            address:"0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
+            aave: "0x5c2ed810328349100A66B82b78a1791B101C9D61"
+        },
+        "0x3BA4c387f786bFEE076A58914F5Bd38d668B42c3": {
+            decimals: 18,
+            symbol: "BNB",
+            name: "BNB (BNB)",
+            color: "#f3ba2f",
+            address:"0x3BA4c387f786bFEE076A58914F5Bd38d668B42c3",
+            aave: ""
+        },
+        "0xD6DF932A45C0f255f85145f286eA0b292B21C90B": {
+            decimals: 18,
+            symbol: "AAVE",
+            name: "Aave (PoS) (AAVE)",
+            color: "#f3ba2f",
+            address:"0xD6DF932A45C0f255f85145f286eA0b292B21C90B",
+            aave: "0x1d2a0E5EC8E5bBDCA5CB219e649B565d8e5c3360"
+        },
 
 
     },
@@ -953,6 +1007,7 @@ const IPFS_SVG_PATH = "https://ipfs.io/ipfs/QmP7Jw11Xxrmf9vd2vKvMgk8LYS4WRCaLjWS
 export {
     ERC20,
     NETWORK,
+    ROUTER,
     IPFS_SVG_PATH
 }
 
