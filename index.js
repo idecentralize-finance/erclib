@@ -111,8 +111,8 @@ const NETWORK =
         chain: "MATIC",
         chainId: 137,
         type: "Mainnet",
-        rpc:"https://rpc-mainnet.maticvigil.com/",
-        explorer: "https://polygonscan.com/",
+        rpc:"https://polygon-rpc.com",
+        explorer: "https://polygonscan.com/address/",
         color: "#8247e5"
     },
     80001: {
@@ -122,7 +122,7 @@ const NETWORK =
         chainId: 80001,
         type: "Testnet",
         rpc:"https://rpc-mumbai.maticvigil.com/",
-        explorer: "https://mumbai.polygonscan.com/",
+        explorer: "https://mumbai.polygonscan.com/address",
         color: "#8247e5"
     },
     56: {
@@ -132,7 +132,7 @@ const NETWORK =
         chainId: 56,
         type: "Mainnet",
         rpc:"https://bsc-dataseed.binance.org/",
-        explorer: "https://bscscan.com/",
+        explorer: "https://bscscan.com/address/",
         color:"#f3ba2f"
     },
     97: {
@@ -142,7 +142,7 @@ const NETWORK =
         chainId: 97,
         type: "Testnet",
         rpc:"https://data-seed-prebsc-1-s1.binance.org:8545/",
-        explorer: "https://testnet.bscscan.com/",
+        explorer: "https://testnet.bscscan.com/address/",
         color:"#f3ba2f"
     },
     100: {
@@ -152,7 +152,7 @@ const NETWORK =
         chainId: 100,
         type: "Mainnet",
         rpc:"https://rpc.xdaichain.com/",
-        explorer: "https://blockscout.com/xdai/mainnet/",
+        explorer: "https://blockscout.com/xdai/mainnet/address/",
         color:"#febe44"
     },
     31337: {
