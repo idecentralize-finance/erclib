@@ -6,10 +6,37 @@ const ROUTER = {
     },
     137:{
         // POLYGON
-        polycat: "0x94930a328162957FF1dd48900aF67B5439336cBD",
-        sushiswap: "0x1b02da8cb0d097eb8d57a175b88c7d8b47997506",
-        quickswap: "0xa5e0829caced8ffdd4de3c43696c57f7d7a678ff",
-        cometswap: "0x93bcdc45f7e62f89a8e901dc4a0e2c6c427d9f25"
+        "0x94930a328162957FF1dd48900aF67B5439336cBD":{
+            address:"0x94930a328162957FF1dd48900aF67B5439336cBD",
+            uri:"https://polycat.finance/swap",
+            name:"PolyCat"
+        },
+        "0x1b02da8cb0d097eb8d57a175b88c7d8b47997506":{
+            address:"0x1b02da8cb0d097eb8d57a175b88c7d8b47997506",
+            uri:"https://app.sushi.com/swap",
+            name:"SushiSwap"
+        },
+        "0xa5e0829caced8ffdd4de3c43696c57f7d7a678ff":{
+            address:"0xa5e0829caced8ffdd4de3c43696c57f7d7a678ff",
+            uri:"https://quickswap.exchange/#/swap",
+            name:"QuickSwap"
+        },
+        "0x93bcdc45f7e62f89a8e901dc4a0e2c6c427d9f25":{
+            address:"0x93bcdc45f7e62f89a8e901dc4a0e2c6c427d9f25",
+            name:"CometSwap"
+        },
+        "0xc0788a3ad43d79aa53b09c2eacc313a787d1d607":{
+            address:"0xc0788a3ad43d79aa53b09c2eacc313a787d1d607",
+            uri:"https://app.apeswap.finance/swap",
+            name:"ApeSwap"
+        },
+        "0x3a1d87f206d12415f5b0a33e786967680aab4f6d":{
+            address:"0x3a1d87f206d12415f5b0a33e786967680aab4f6d",
+            uri:"https://swap.wault.finance/polygon/#/swap",
+            name:"VaultSwap"
+        },
+        
+
 
     }
 
