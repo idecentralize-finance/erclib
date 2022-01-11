@@ -780,6 +780,14 @@ const ERC20 = {
             address:"0xD6DF932A45C0f255f85145f286eA0b292B21C90B",
             aave: "0x1d2a0E5EC8E5bBDCA5CB219e649B565d8e5c3360"
         },
+          "0x53e0bca356bd5dddfebbd1fc0ffd03fabad39": {
+            decimals: 18,
+            symbol: "LINK",
+            name: "ChainLink Token",
+            color: "#2a5ada",
+            address: "0x53e0bca356bd5dddfebbd1fc0ffd03fabad39",
+            aave: ""
+        },
 
 
     },
