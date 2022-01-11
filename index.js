@@ -793,6 +793,14 @@ const ERC20 = {
             address:"0x0000000000000000000000000000000000000000",
             aave: ""
         },
+         "0x53e0bca356bd5dddfebbd1fc0ffd03fabad39": {
+            decimals: 18,
+            symbol: "LINK",
+            name: "ChainLink Token",
+            color: "#2a5ada",
+            address: "0x53e0bca356bd5dddfebbd1fc0ffd03fabad39",
+            aave: ""
+        },
 
     },
     56:{ // BSC
