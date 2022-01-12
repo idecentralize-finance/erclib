@@ -3,6 +3,21 @@ const ROUTER = {
 
     1:{
         // ETHEREUM EXCHANGES
+        "0xd9e1cE17f2641f24aE83637ab66a2cca9C378B9F":{
+            address:"0xd9e1cE17f2641f24aE83637ab66a2cca9C378B9F",
+            uri:"https://sushi.com",
+            name:"SushiSwap"
+        },
+        "0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D":{
+            address:"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D",
+            uri:"https://uniswap.org/",
+            name:"UniSwap"
+        },
+        "0xF491e7B69E4244ad4002BC14e878a34207E38c29":{
+            address:"0xF491e7B69E4244ad4002BC14e878a34207E38c29",
+            uri:"https://spookyswap.finance/",
+            name:"SpookySwap"
+        }
     },
     137:{
         // POLYGON
@@ -539,6 +554,16 @@ const ERC20 = {
             compound: "",
             aave: "",
             yearn: ""
+        },
+        "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2": {
+            address:"0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+            decimals: 18,
+            symbol: "WETH",
+            name: "Wrapped Ether",
+            color: "#393939",
+            compound: "",
+            aave: "0x030bA81f1c18d280636F32af80b9AAd02Cf0854e",
+            yearn: "0xa9fE4601811213c340e850ea305481afF02f5b28"
         }
 
 
