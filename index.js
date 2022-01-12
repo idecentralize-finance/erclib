@@ -50,6 +50,12 @@ const ROUTER = {
             uri:"https://swap.wault.finance/polygon/#/swap",
             name:"VaultSwap"
         },
+        "0x5C6EC38fb0e2609672BDf628B1fD605A523E5923":{
+            address:"0x5C6EC38fb0e2609672BDf628B1fD605A523E5923",
+            uri:"https://jetswap.finance/",
+            name:"JetSwap"
+        },
+        
         
 
 
