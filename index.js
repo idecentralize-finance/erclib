@@ -813,8 +813,16 @@ const ERC20 = {
             address: "0x53e0bca356bd5dddfebbd1fc0ffd03fabad39",
             aave: ""
         },
+          "0xBbba073C31bF03b8ACf7c28EF0738DeCF3695683": {
+            decimals: 18,
+            symbol: "SAND",
+            name: "SAND",
+            color: "#00aeef",
+            address: "0xBbba073C31bF03b8ACf7c28EF0738DeCF3695683",
+            aave: ""
+        },
 
-
+        
     },
     80001:{ // POLYGON TESTNET
         // default
