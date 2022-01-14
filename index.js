@@ -834,7 +834,120 @@ const ERC20 = {
             color: "#2a5ada",
             address: "0xa1c57f48f0deb89f569dfbe6e2b7f46d33606fd4",
             aave: ""
-        
+        },
+        "0xBbba073C31bF03b8ACf7c28EF0738DeCF3695683": {
+          decimals: 18,
+          symbol: "SAND",
+          name: "SAND",
+          color: "#00aeef",
+          address: "0xBbba073C31bF03b8ACf7c28EF0738DeCF3695683",
+          aave: ""
+        },
+        "0x5fe2b58c013d7601147dcdd68c143a77499f5531": {
+          decimals: 18,
+          symbol: "GRT",
+          name: "Graph Token",
+          color: "#6747ed",
+          address: "0x5fe2b58c013d7601147dcdd68c143a77499f5531",
+          aave: ""
+        }, 
+        "0xb33eaad8d922b1083446dc23f610c2567fb5180f": {
+          decimals: 18,
+          symbol: "UNI",
+          name: "Uniswap",
+          color: "#ff007a",
+          address: "0xb33eaad8d922b1083446dc23f610c2567fb5180f",
+          aave: ""
+        },
+        "0xc9c1c1c20b3658f8787cc2fd702267791f224ce1": {
+          decimals: 18,
+          symbol: "FTM",
+          name: "Fantom",
+          color: "#13b5ec",
+          address: "0xc9c1c1c20b3658f8787cc2fd702267791f224ce1",
+          aave: ""
+        },
+        "0x7ec26842f195c852fa843bb9f6d8b583a274a157": {
+          decimals: 18,
+          symbol: "ENJ",
+          name: "EnjinCoin",
+          color: "#7866d5",
+          address: "0x7ec26842f195c852fa843bb9f6d8b583a274a157",
+          aave: ""
+        },
+        "0x0621d647cecbfb64b79e44302c1933cb4f27054d": {
+          decimals: 18,
+          symbol: "AMP",
+          name: "AMP",
+          color: "#d9327c",
+          address: "0x0621d647cecbfb64b79e44302c1933cb4f27054d",
+          aave: ""
+        },
+        "0x8505b9d2254a7ae468c0e9dd10ccea3a837aef5c": {
+          decimals: 18,
+          symbol: "COMP",
+          name: "Compound",
+          color: "#00d395",
+          address: "0x8505b9d2254a7ae468c0e9dd10ccea3a837aef5c",
+          aave: ""
+        },
+        "0x5ffd62d3c3ee2e81c00a7b9079fb248e7df024a8": {
+          decimals: 18,
+          symbol: "GNO",
+          name: "Gnosis",
+          color: "#00a6c4",
+          address: "0x5ffd62d3c3ee2e81c00a7b9079fb248e7df024a8",
+          aave: ""
+        },
+        "0x9c2c5fd7b07e95ee044ddeba0e97a665f142394f": {
+          decimals: 18,
+          symbol: "1INCH",
+          name: "1INCH",
+          color: "#1b314f",
+          address: "0x9c2c5fd7b07e95ee044ddeba0e97a665f142394f",
+          aave: ""
+        },
+        "0x3cef98bb43d732e2f285ee605a8158cde967d219": {
+          decimals: 18,
+          symbol: "BAT",
+          name: "Bat Token",
+          color: "#ff5000",
+          address: "0x3cef98bb43d732e2f285ee605a8158cde967d219",
+          aave: ""
+        },
+        "0x0b3f868e0be5597d5db7feb59e1cadbb0fdda50a": {
+          decimals: 18,
+          symbol: "SUSHI",
+          name: "Sushi Token",
+          color: "#fa52a0",
+          address: "0x0b3f868e0be5597d5db7feb59e1cadbb0fdda50a",
+          aave: ""
+        },
+        "0xda537104d6a5edd53c6fbba9a898708e465260b6": {
+          decimals: 18,
+          symbol: "YFI",
+          name: "yearn.finance",
+          color: "#006ae3",
+          address: "0xda537104d6a5edd53c6fbba9a898708e465260b6",
+          aave: ""
+        },
+        "0xada58df0f643d959c2a47c9d4d4c1a4defe3f11c": {
+          decimals: 18,
+          symbol: "CRO",
+          name: "Crypto.com Coin",
+          color: "#25376c",
+          address: "0xada58df0f643d959c2a47c9d4d4c1a4defe3f11c",
+          aave: ""
+        },
+        "0xc26d47d5c33ac71ac5cf9f776d63ba292a4f7842": {
+          decimals: 18,
+          symbol: "BNT",
+          name: "Bancor",
+          color: "#000d2b",
+          address: "0xc26d47d5c33ac71ac5cf9f776d63ba292a4f7842",
+          aave: ""
+        },
+
     },
     80001:{ // POLYGON TESTNET
         // default
@@ -1090,4 +1203,3 @@ export {
     ROUTER,
     IPFS_SVG_PATH
 }
-
