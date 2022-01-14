@@ -822,7 +822,7 @@ const ERC20 = {
           "0xBbba073C31bF03b8ACf7c28EF0738DeCF3695683": {
             decimals: 18,
             symbol: "SAND",
-            name: "SAND",
+            name: "Sandbox",
             color: "#00aeef",
             address: "0xBbba073C31bF03b8ACf7c28EF0738DeCF3695683",
             aave: ""
