@@ -947,7 +947,7 @@ const ERC20 = {
           address: "0xc26d47d5c33ac71ac5cf9f776d63ba292a4f7842",
           aave: ""
         },
-        
+
     },
     80001:{ // POLYGON TESTNET
         // default
