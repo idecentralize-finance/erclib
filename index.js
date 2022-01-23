@@ -970,6 +970,62 @@ const ERC20 = {
             color: "#f3ba2f",
             address:"0x0000000000000000000000000000000000000000"
         },
+        "0x2170ed0880ac9a755fd29b2688956bd959f933f8": {
+            decimals: 18,
+            symbol: "wETH",
+            name: "wEthereum",
+            color: "#393939",
+            address:"0x2170ed0880ac9a755fd29b2688956bd959f933f8"
+        },
+        "0x55d398326f99059ff775485246999027b3197955": {
+            decimals: 18,
+            symbol: "BSCUSD",
+            name: "BSC-USD",
+            color: "#f0b90b",
+            address:"0x55d398326f99059ff775485246999027b3197955"
+        },
+        "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d": {
+            decimals: 18,
+            symbol: "USDC",
+            name: "USDC",
+            color: "#2775ca",
+            address:"0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d"
+        },
+        "0x14016e85a25aeb13065688cafb43044c2ef86784": {
+            decimals: 18,
+            symbol: "TUSD",
+            name: "TrueUSD",
+            color: "#002868",
+            address:"0x14016e85a25aeb13065688cafb43044c2ef86784"
+        },
+        "0x3ee2200efb3400fabb9aacf31297cbdd1d435d47": {
+            decimals: 18,
+            symbol: "ADA",
+            name: "Cardano",
+            color: "#0033ad",
+            address:"0x3ee2200efb3400fabb9aacf31297cbdd1d435d47"
+        },
+        "0x1d2f0da169ceb9fc7b3144628db156f3f6c60dbe": {
+            decimals: 18,
+            symbol: "XRP",
+            name: "XRP",
+            color: "#23292f",
+            address:"0x1d2f0da169ceb9fc7b3144628db156f3f6c60dbe"
+        },
+        "0x52ce071bd9b1c4b00a0b92d298c512478cad67e8": {
+            decimals: 18,
+            symbol: "COMP",
+            name: "Compound",
+            color: "#000d395",
+            address:"0x52ce071bd9b1c4b00a0b92d298c512478cad67e8"
+        },
+        "0x111111111117dc0aa78b770fa6a738034120c302": {
+            decimals: 18,
+            symbol: "1INCH",
+            name: "1Inch",
+            color: "#1b314f",
+            address:"0x111111111117dc0aa78b770fa6a738034120c302"
+        },
     },
     97:{ // BSC TESNET
         // default
