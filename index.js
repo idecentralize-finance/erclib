@@ -811,12 +811,12 @@ const ERC20 = {
             address:"0xD6DF932A45C0f255f85145f286eA0b292B21C90B",
             aave: "0x1d2a0E5EC8E5bBDCA5CB219e649B565d8e5c3360"
         },
-          "0x53e0bca35ec356bd5dddfebbd1fc0fd03fabad39": {
+          "0x53E0bca35eC356BD5ddDFebbD1Fc0fD03FaBad39": {
             decimals: 18,
             symbol: "LINK",
             name: "ChainLink Token",
             color: "#2a5ada",
-            address: "0x53e0bca35ec356bd5dddfebbd1fc0fd03fabad39",
+            address: "0x53E0bca35eC356BD5ddDFebbD1Fc0fD03FaBad39",
             aave: ""
         },
           "0xBbba073C31bF03b8ACf7c28EF0738DeCF3695683": {
@@ -827,12 +827,12 @@ const ERC20 = {
             address: "0xBbba073C31bF03b8ACf7c28EF0738DeCF3695683",
             aave: ""
         },
-        "0xa1c57f48f0deb89f569dfbe6e2b7f46d33606fd4": {
+        "0xA1c57f48F0Deb89f569dFbE6E2B7f46D33606fD4": {
             decimals: 18,
             symbol: "MANA",
             name: "Decentraland",
             color: "#2a5ada",
-            address: "0xa1c57f48f0deb89f569dfbe6e2b7f46d33606fd4",
+            address: "0xA1c57f48F0Deb89f569dFbE6E2B7f46D33606fD4",
             aave: ""
         },
         "0xBbba073C31bF03b8ACf7c28EF0738DeCF3695683": {
@@ -843,108 +843,108 @@ const ERC20 = {
           address: "0xBbba073C31bF03b8ACf7c28EF0738DeCF3695683",
           aave: ""
         },
-        "0x5fe2b58c013d7601147dcdd68c143a77499f5531": {
+        "0x5fe2B58c013d7601147DcdD68C143A77499f5531": {
           decimals: 18,
           symbol: "GRT",
           name: "Graph Token",
           color: "#6747ed",
-          address: "0x5fe2b58c013d7601147dcdd68c143a77499f5531",
+          address: "0x5fe2B58c013d7601147DcdD68C143A77499f5531",
           aave: ""
         }, 
-        "0xb33eaad8d922b1083446dc23f610c2567fb5180f": {
+        "0xb33EaAd8d922B1083446DC23f610c2567fB5180f": {
           decimals: 18,
           symbol: "UNI",
           name: "Uniswap",
           color: "#ff007a",
-          address: "0xb33eaad8d922b1083446dc23f610c2567fb5180f",
+          address: "0xb33EaAd8d922B1083446DC23f610c2567fB5180f",
           aave: ""
         },
-        "0xc9c1c1c20b3658f8787cc2fd702267791f224ce1": {
+        "0xC9c1c1c20B3658F8787CC2FD702267791f224Ce1": {
           decimals: 18,
           symbol: "FTM",
           name: "Fantom",
           color: "#13b5ec",
-          address: "0xc9c1c1c20b3658f8787cc2fd702267791f224ce1",
+          address: "0xC9c1c1c20B3658F8787CC2FD702267791f224Ce1",
           aave: ""
         },
-        "0x7ec26842f195c852fa843bb9f6d8b583a274a157": {
+        "0x7eC26842F195c852Fa843bB9f6D8B583a274a157": {
           decimals: 18,
           symbol: "ENJ",
           name: "EnjinCoin",
           color: "#7866d5",
-          address: "0x7ec26842f195c852fa843bb9f6d8b583a274a157",
+          address: "0x7eC26842F195c852Fa843bB9f6D8B583a274a157",
           aave: ""
         },
-        "0x0621d647cecbfb64b79e44302c1933cb4f27054d": {
+        "0x0621d647cecbFb64b79E44302c1933cB4f27054d": {
           decimals: 18,
           symbol: "AMP",
           name: "AMP",
           color: "#d9327c",
-          address: "0x0621d647cecbfb64b79e44302c1933cb4f27054d",
+          address: "0x0621d647cecbFb64b79E44302c1933cB4f27054d",
           aave: ""
         },
-        "0x8505b9d2254a7ae468c0e9dd10ccea3a837aef5c": {
+        "0x8505b9d2254A7Ae468c0E9dd10Ccea3A837aef5c": {
           decimals: 18,
           symbol: "COMP",
           name: "Compound",
           color: "#00d395",
-          address: "0x8505b9d2254a7ae468c0e9dd10ccea3a837aef5c",
+          address: "0x8505b9d2254A7Ae468c0E9dd10Ccea3A837aef5c",
           aave: ""
         },
-        "0x5ffd62d3c3ee2e81c00a7b9079fb248e7df024a8": {
+        "0x5FFD62D3C3eE2E81C00A7b9079FB248e7dF024A8": {
           decimals: 18,
           symbol: "GNO",
           name: "Gnosis",
           color: "#00a6c4",
-          address: "0x5ffd62d3c3ee2e81c00a7b9079fb248e7df024a8",
+          address: "0x5FFD62D3C3eE2E81C00A7b9079FB248e7dF024A8",
           aave: ""
         },
-        "0x9c2c5fd7b07e95ee044ddeba0e97a665f142394f": {
+        "0x9c2C5fd7b07E95EE044DDeba0E97a665F142394f": {
           decimals: 18,
           symbol: "1INCH",
           name: "1INCH",
           color: "#1b314f",
-          address: "0x9c2c5fd7b07e95ee044ddeba0e97a665f142394f",
+          address: "0x9c2C5fd7b07E95EE044DDeba0E97a665F142394f",
           aave: ""
         },
-        "0x3cef98bb43d732e2f285ee605a8158cde967d219": {
+        "0x3Cef98bb43d732E2F285eE605a8158cDE967D219": {
           decimals: 18,
           symbol: "BAT",
           name: "Bat Token",
           color: "#ff5000",
-          address: "0x3cef98bb43d732e2f285ee605a8158cde967d219",
+          address: "0x3Cef98bb43d732E2F285eE605a8158cDE967D219",
           aave: ""
         },
-        "0x0b3f868e0be5597d5db7feb59e1cadbb0fdda50a": {
+        "0x0b3F868E0BE5597D5DB7fEB59E1CADBb0fdDa50a": {
           decimals: 18,
           symbol: "SUSHI",
           name: "Sushi Token",
           color: "#fa52a0",
-          address: "0x0b3f868e0be5597d5db7feb59e1cadbb0fdda50a",
+          address: "0x0b3F868E0BE5597D5DB7fEB59E1CADBb0fdDa50a",
           aave: ""
         },
-        "0xda537104d6a5edd53c6fbba9a898708e465260b6": {
+        "0xDA537104D6A5edd53c6fBba9A898708E465260b6": {
           decimals: 18,
           symbol: "YFI",
           name: "yearn.finance",
           color: "#006ae3",
-          address: "0xda537104d6a5edd53c6fbba9a898708e465260b6",
+          address: "0xDA537104D6A5edd53c6fBba9A898708E465260b6",
           aave: ""
         },
-        "0xada58df0f643d959c2a47c9d4d4c1a4defe3f11c": {
+        "0xAdA58DF0F643D959C2A47c9D4d4c1a4deFe3F11C": {
           decimals: 18,
           symbol: "CRO",
           name: "Crypto.com Coin",
           color: "#25376c",
-          address: "0xada58df0f643d959c2a47c9d4d4c1a4defe3f11c",
+          address: "0xAdA58DF0F643D959C2A47c9D4d4c1a4deFe3F11C",
           aave: ""
         },
-        "0xc26d47d5c33ac71ac5cf9f776d63ba292a4f7842": {
+        "0xc26D47d5c33aC71AC5CF9F776D63Ba292a4F7842": {
           decimals: 18,
           symbol: "BNT",
           name: "Bancor",
           color: "#000d2b",
-          address: "0xc26d47d5c33ac71ac5cf9f776d63ba292a4f7842",
+          address: "0xc26D47d5c33aC71AC5CF9F776D63Ba292a4F7842",
           aave: ""
         },
 
