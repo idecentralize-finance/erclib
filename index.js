@@ -832,14 +832,6 @@ const ERC20 = {
             address: "0xA1c57f48F0Deb89f569dFbE6E2B7f46D33606fD4",
             aave: ""
         },
-        "0xBbba073C31bF03b8ACf7c28EF0738DeCF3695683": {
-          decimals: 18,
-          symbol: "SAND",
-          name: "SAND",
-          color: "#00aeef",
-          address: "0xBbba073C31bF03b8ACf7c28EF0738DeCF3695683",
-          aave: ""
-        },
         "0x5fe2B58c013d7601147DcdD68C143A77499f5531": {
           decimals: 18,
           symbol: "GRT",
