@@ -1245,13 +1245,50 @@ const ERC20 = {
 
 
 
+const ERC721 = { 
 
+    1:{
+        "0xd6ACD704F1d8E007D934e1Ec64838aF3C8818015":{
+            address: "0xd6ACD704F1d8E007D934e1Ec64838aF3C8818015",
+            symbol: "NEGEN",
+            name:"Nemus Genesis Collection",
+            uri:"https://nemus.earth/",
+            collection:"https://opensea.io/collection/nemus-genesis-collection"
+        },
+        "0x09ddFFa1Ed6BC692fffB6709e2Ba8457e316E465":{
+            address:"0x09ddFFa1Ed6BC692fffB6709e2Ba8457e316E465",
+            symbol: "LLRD",
+            name:"Landlord NFT",
+            uri:"https://nemus.earth/",
+            collection:"https://opensea.io/collection/landlord-nft"
+        },
+        "0x89f31B3B56821B019AaE74BA08c6Da54784fB2Ae":{
+            address:"0x89f31B3B56821B019AaE74BA08c6Da54784fB2Ae",
+            symbol: "iDX NFT",
+            name:"iDX digital Position",
+            uri:"https://idx.idecentralize.finance",
+            collection:"https://opensea.io/collection/idx-digital-position"
+        }
+    
+    },
+
+    137:{
+        "0x5265535c70664EE54c8584bf7Fe62bBD2558A25C":{
+            address:"0x5265535c70664EE54c8584bf7Fe62bBD2558A25C",
+            symbol: "GBot",
+            name:"The Greedy Bots",
+            uri:"https://idecentralize.finance",
+            collection:"https://opensea.io/collection/greedy-bots"
+       } 
+    }
+}
 
 
 const IPFS_SVG_PATH = "https://ipfs.io/ipfs/QmP7Jw11Xxrmf9vd2vKvMgk8LYS4WRCaLjWS6F4FJUJezi/"
 
 export {
     ERC20,
+    ERC721,
     NETWORK,
     ROUTER,
     IPFS_SVG_PATH
