@@ -1245,21 +1245,24 @@ const ERC721 = {
             symbol: "NEGEN",
             name:"Nemus Genesis Collection",
             uri:"https://nemus.earth/",
-            collection:"https://opensea.io/collection/nemus-genesis-collection"
+            collection:"https://opensea.io/collection/nemus-genesis-collection",
+            logo:"https://lh3.googleusercontent.com/IkiktGLialORnoLv3yDKCP_Fi4Un2wfxpChCzZBgxN8vLCSRreerzO6Vl8BYrcn7PZP6lD_bGww6WnEokeURXAWHx9wCp5KpBCqMag=s0"
         },
         "0x09ddFFa1Ed6BC692fffB6709e2Ba8457e316E465":{
             address:"0x09ddFFa1Ed6BC692fffB6709e2Ba8457e316E465",
             symbol: "LLRD",
             name:"Landlord NFT",
             uri:"https://nemus.earth/",
-            collection:"https://opensea.io/collection/landlord-nft"
+            collection:"https://opensea.io/collection/landlord-nft",
+            logo:"https://lh3.googleusercontent.com/eKo_JwlOJB-nW_09KuZCp7whvuuHqmmZYWrgo7-ehADbd30a-XGtCrb6SEeH8hMc0tgx6TfbzJL2QLY9Xge9YknjzM6CwkUQ3AR3=s0"
         },
         "0x89f31B3B56821B019AaE74BA08c6Da54784fB2Ae":{
             address:"0x89f31B3B56821B019AaE74BA08c6Da54784fB2Ae",
             symbol: "iDX NFT",
             name:"iDX digital Position",
             uri:"https://idx.idecentralize.finance",
-            collection:"https://opensea.io/collection/idx-digital-position"
+            collection:"https://opensea.io/collection/idx-digital-position",
+            logo:""
         }
     
     },
@@ -1270,7 +1273,8 @@ const ERC721 = {
             symbol: "GBot",
             name:"The Greedy Bots",
             uri:"https://idecentralize.finance",
-            collection:"https://opensea.io/collection/greedy-bots"
+            collection:"https://opensea.io/collection/greedy-bots",
+            logo:"https://lh3.googleusercontent.com/Fbz2N3efxcVqsfSEsR9sl-bNY_up4WayReS-IaPi5dVj7kkHRPnD9t-QxxbuFtZ8UMoTkHcUs0-XUAF_sAELIbd7_E3BuSrmFXAa0A=s0"
        } 
     }
 }
