@@ -75,6 +75,7 @@ const NETWORK =
         chain: "ETH",
         chainId: 1,
         type: "Mainnet",
+        rpc: "https://mainnet.infura.io/v3/640daef0814a43b4a17f9eea18bd9041",
         explorer: "https://etherscan.io/address/",
         color: "#393939"
     },
@@ -84,6 +85,7 @@ const NETWORK =
         chain: "ETH",
         chainId: 3,
         type: "Testnet",
+        rpc: "https://ropsten.infura.io/v3/640daef0814a43b4a17f9eea18bd9041",
         explorer: "https://ropsten.etherscan.io/address/",
         color: "#393939"
     },
@@ -93,6 +95,7 @@ const NETWORK =
         chain: "ETH",
         chainId: 4,
         type: "Testnet",
+        rpc: "https://rinkeby.infura.io/v3/640daef0814a43b4a17f9eea18bd9041",
         explorer: "https://rinkeby.etherscan.io/address/",
         color: "#393939"
     },
@@ -102,6 +105,7 @@ const NETWORK =
         chain: "ETH",
         chainId: 5,
         type: "Testnet",
+        rpc: "https://goerli.infura.io/v3/640daef0814a43b4a17f9eea18bd9041",
         explorer: "https://goerli.etherscan.io/address/",
         color: "#393939"
     },
@@ -111,6 +115,7 @@ const NETWORK =
         chain: "ETH",
         chainId: 42,
         type: "Testnet",
+        rpc: "https://kovan.infura.io/v3/640daef0814a43b4a17f9eea18bd9041",
         explorer: "https://kovan.etherscan.io/address/",
         color: "#393939"
     },
@@ -120,6 +125,7 @@ const NETWORK =
         chain: "ETH",
         chainId: 2018,
         type: "Development",
+        rpc: "",
         explorer: "",
         color: "#393939"
     },
@@ -179,7 +185,7 @@ const NETWORK =
         chain: "ETH",
         chainId: 31337,
         type: "Local",
-        rpc: "",
+        rpc: "http://localhost",
         explorer: "",
         color:"#393939"
     },
