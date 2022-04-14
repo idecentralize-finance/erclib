@@ -77,7 +77,8 @@ const NETWORK =
         type: "Mainnet",
         rpc: "https://mainnet.infura.io/v3/640daef0814a43b4a17f9eea18bd9041",
         explorer: "https://etherscan.io/address/",
-        color: "#393939"
+        color: "#393939",
+        defaultNFT: "0x89f31B3B56821B019AaE74BA08c6Da54784fB2Ae"
     },
     3: {
         id: 3,
@@ -137,7 +138,8 @@ const NETWORK =
         type: "Mainnet",
         rpc:"https://polygon-rpc.com",
         explorer: "https://polygonscan.com/address/",
-        color: "#8247e5"
+        color: "#8247e5",
+        defaultNFT: "0x5265535c70664EE54c8584bf7Fe62bBD2558A25C"
     },
     80001: {
         id: 80001,
@@ -578,6 +580,24 @@ const ERC20 = {
 
 
     },
+
+    3:{
+        // KOVAN COMPOUND ONLY
+         // ETH
+         "0x0000000000000000000000000000000000000000": {
+            decimals: 18,
+            symbol: "ETH",
+            name: "Ether",
+            color: "#393939",
+            address:"0x0000000000000000000000000000000000000000",
+            compound:"0x41B5844f4680a8C38fBb695b7F9CFd1F64474a72",
+            aave: "0xF1bE881Ee7034ebC0CD47E1af1bA94EC30DF3583",
+            yearn: ""
+        },
+
+    },
+
+
     4:{  // RINKEBY COMPOUND ONLY
          // ETH
         "0x0000000000000000000000000000000000000000": {
