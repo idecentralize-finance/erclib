@@ -13,10 +13,10 @@ const ROUTER = {
             uri:"https://uniswap.org/",
             name:"UniSwap"
         },
-        "0xF491e7B69E4244ad4002BC14e878a34207E38c29":{
-            address:"0xF491e7B69E4244ad4002BC14e878a34207E38c29",
-            uri:"https://spookyswap.finance/",
-            name:"SpookySwap"
+        "0x03f7724180AA6b939894B5Ca4314783B0b36b329":{
+            address:"0x03f7724180AA6b939894B5Ca4314783B0b36b329",
+            uri:"https://shibaswap.com/#/swap",
+            name:"ShibaSwap"
         }
     },
     137:{
