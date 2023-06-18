@@ -1,6 +1,5 @@
 # erclib
 [![Version npm](https://img.shields.io/npm/v/@idecentralize/erclib.svg?logo=npm)](https://www.npmjs.com/package/@idecentralize/erclib)
-[![Node.js CI](https://github.com/idecentralize-finance/erclib/actions/workflows/node.js.yml/badge.svg)](https://github.com/idecentralize-finance/erclib/actions/workflows/node.js.yml)
 [![Node.js CI](https://github.com/idecentralize-finance/erclib/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/idecentralize-finance/erclib/actions/workflows/npm-publish.yml)
 
 
