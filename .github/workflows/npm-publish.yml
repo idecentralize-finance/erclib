@@ -23,4 +23,7 @@ jobs:
       - name: Publish to npm
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-        run: npm publish --access public
+
+        run: |
+          echo "$(jq '.publishConfig.registry = "https://registry.npmjs.org"' package.json)" > package.json
+          npm publish --access public
