@@ -6,17 +6,20 @@ const ROUTER = {
         "0xd9e1cE17f2641f24aE83637ab66a2cca9C378B9F":{
             address:"0xd9e1cE17f2641f24aE83637ab66a2cca9C378B9F",
             uri:"https://sushi.com",
-            name:"SushiSwap"
+            name:"SushiSwap",
+            type:"UNIV2"
         },
         "0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D":{
             address:"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D",
             uri:"https://uniswap.org/",
-            name:"UniSwap"
+            name:"UniSwap",
+            type:"UNIV2"
         },
         "0x03f7724180AA6b939894B5Ca4314783B0b36b329":{
             address:"0x03f7724180AA6b939894B5Ca4314783B0b36b329",
             uri:"https://shibaswap.com/#/swap",
-            name:"ShibaSwap"
+            name:"ShibaSwap",
+            type:"UNIV2"
         }
     },
     137:{
@@ -24,36 +27,43 @@ const ROUTER = {
         "0x94930a328162957FF1dd48900aF67B5439336cBD":{
             address:"0x94930a328162957FF1dd48900aF67B5439336cBD",
             uri:"https://polycat.finance/swap",
-            name:"PolyCat"
+            name:"PolyCat",
+            type:"UNIV2"
         },
         "0x1b02da8cb0d097eb8d57a175b88c7d8b47997506":{
             address:"0x1b02da8cb0d097eb8d57a175b88c7d8b47997506",
             uri:"https://app.sushi.com/swap",
-            name:"SushiSwap"
+            name:"SushiSwap",
+            type:"UNIV2"
         },
         "0xa5e0829caced8ffdd4de3c43696c57f7d7a678ff":{
             address:"0xa5e0829caced8ffdd4de3c43696c57f7d7a678ff",
             uri:"https://quickswap.exchange/#/swap",
-            name:"QuickSwap"
+            name:"QuickSwap",
+            type:"UNIV2"
         },
         "0x93bcdc45f7e62f89a8e901dc4a0e2c6c427d9f25":{
             address:"0x93bcdc45f7e62f89a8e901dc4a0e2c6c427d9f25",
-            name:"CometSwap"
+            name:"CometSwap",
+            type:"UNIV2"
         },
         "0xc0788a3ad43d79aa53b09c2eacc313a787d1d607":{
             address:"0xc0788a3ad43d79aa53b09c2eacc313a787d1d607",
             uri:"https://app.apeswap.finance/swap",
-            name:"ApeSwap"
+            name:"ApeSwap",
+            type:"UNIV2"
         },
         "0x3a1d87f206d12415f5b0a33e786967680aab4f6d":{
             address:"0x3a1d87f206d12415f5b0a33e786967680aab4f6d",
             uri:"https://swap.wault.finance/polygon/#/swap",
-            name:"VaultSwap"
+            name:"VaultSwap",
+            type:"UNIV2"
         },
         "0x5C6EC38fb0e2609672BDf628B1fD605A523E5923":{
             address:"0x5C6EC38fb0e2609672BDf628B1fD605A523E5923",
             uri:"https://jetswap.finance/",
-            name:"JetSwap"
+            name:"JetSwap",
+            type:"UNIV2"
         },
         
     }
