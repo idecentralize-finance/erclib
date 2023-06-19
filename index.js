@@ -90,26 +90,6 @@ const NETWORK =
         color: "#393939",
         defaultNFT: "0x89f31B3B56821B019AaE74BA08c6Da54784fB2Ae"
     },
-    3: {
-        id: 3,
-        network: "Ropsten",
-        chain: "ETH",
-        chainId: 3,
-        type: "Testnet",
-        rpc: "https://ropsten.infura.io/v3/640daef0814a43b4a17f9eea18bd9041",
-        explorer: "https://ropsten.etherscan.io/address/",
-        color: "#393939"
-    },
-    4: {
-        id: 4,
-        network: "Rinkeby",
-        chain: "ETH",
-        chainId: 4,
-        type: "Testnet",
-        rpc: "https://rinkeby.infura.io/v3/640daef0814a43b4a17f9eea18bd9041",
-        explorer: "https://rinkeby.etherscan.io/address/",
-        color: "#393939"
-    },
     5: {
         id: 5,
         network: "Goerli",
@@ -118,26 +98,6 @@ const NETWORK =
         type: "Testnet",
         rpc: "https://goerli.infura.io/v3/640daef0814a43b4a17f9eea18bd9041",
         explorer: "https://goerli.etherscan.io/address/",
-        color: "#393939"
-    },
-    42: {
-        id: 42,
-        network: "Kovan",
-        chain: "ETH",
-        chainId: 42,
-        type: "Testnet",
-        rpc: "https://kovan.infura.io/v3/640daef0814a43b4a17f9eea18bd9041",
-        explorer: "https://kovan.etherscan.io/address/",
-        color: "#393939"
-    },
-    2018: {
-        id: 2018,
-        network: "dev",
-        chain: "ETH",
-        chainId: 2018,
-        type: "Development",
-        rpc: "",
-        explorer: "",
         color: "#393939"
     },
     137: {
@@ -590,171 +550,6 @@ const ERC20 = {
 
 
     },
-
-    3:{
-        // KOVAN COMPOUND ONLY
-         // ETH
-         "0x0000000000000000000000000000000000000000": {
-            decimals: 18,
-            symbol: "ETH",
-            name: "Ether",
-            color: "#393939",
-            address:"0x0000000000000000000000000000000000000000",
-            compound:"0x41B5844f4680a8C38fBb695b7F9CFd1F64474a72",
-            aave: "0xF1bE881Ee7034ebC0CD47E1af1bA94EC30DF3583",
-            yearn: ""
-        },
-
-    },
-
-
-    4:{  // RINKEBY COMPOUND ONLY
-         // ETH
-        "0x0000000000000000000000000000000000000000": {
-            decimals: 18,
-            symbol: "ETH",
-            name: "Ether",
-            color: "#393939",
-            address:"0x0000000000000000000000000000000000000000",
-            compound:"0xd6801a1DfFCd0a410336Ef88DeF4320D6DF1883e",
-            aave: "",
-            yearn: ""
-        },
-        "0xd6801a1DfFCd0a410336Ef88DeF4320D6DF1883e": {
-            decimals: 8,
-            symbol: "cETH",
-            name: "Compound Ether",
-            color: "#000000",
-            address:"0xd6801a1DfFCd0a410336Ef88DeF4320D6DF1883e",
-            compound:"",
-            aave: "",
-            yearn: ""
-        },
-        // DAI
-        "0x5592EC0cfb4dbc12D3aB100b257153436a1f0FEa": {
-            decimals: 18,
-            symbol: "DAI",
-            name: "Dai Stablecoin",
-            color: "#000000",
-            address:"0x5592EC0cfb4dbc12D3aB100b257153436a1f0FEa",
-            compound: "0x6D7F0754FFeb405d23C51CE938289d4835bE3b14",
-            aave: "",
-            yearn: ""
-  
-        }, 
-       
-        "0x6D7F0754FFeb405d23C51CE938289d4835bE3b14": {
-            decimals: 18,
-            symbol: "cDAI",
-            name: "Compound Dai Stablecoin",
-            color: "#000000",
-            address:"0x6D7F0754FFeb405d23C51CE938289d4835bE3b14",
-            compound: "",
-            aave: "",
-            yearn: ""
-  
-        }, 
-        "0x4DBCdF9B62e891a7cec5A2568C3F4FAF9E8Abe2b": {
-            address:"0x4DBCdF9B62e891a7cec5A2568C3F4FAF9E8Abe2b",
-            decimals: 8,
-            symbol: "USDC",
-            name: "USD Coin",
-            color: "#000000",
-            compound: "0x5B281A6DdA0B271e91ae35DE655Ad301C976edb1",
-            aave: "",
-            yearn: ""
-        },
-
-        "0x5B281A6DdA0B271e91ae35DE655Ad301C976edb1": {
-            address:"0x5B281A6DdA0B271e91ae35DE655Ad301C976edb1",
-            decimals: 8,
-            symbol: "cUSDC",
-            name: "Compound USD Coin",
-            color: "#000000",
-            compound: "",
-            aave: "",
-            yearn: ""
-        },
-
-        "0xD9BA894E0097f8cC2BBc9D24D308b98e36dc6D02": {
-            address:"0xD9BA894E0097f8cC2BBc9D24D308b98e36dc6D02",
-            decimals: 18,
-            symbol: "USDT",
-            name: "Tether USD",
-            color: "#000000",
-            compound: "0x2fB298BDbeF468638AD6653FF8376575ea41e768",
-            aave: "",
-            yearn: ""
-        },
-
-        "0x2fB298BDbeF468638AD6653FF8376575ea41e768": {
-            address:"0x2fB298BDbeF468638AD6653FF8376575ea41e768",
-            decimals: 8,
-            symbol: "cUSDT",
-            name: "Compound Tether USD",
-            color: "#000000",
-            compound: "",
-            aave: "",
-            yearn: ""
-        },
-
-        "0xddea378A6dDC8AfeC82C36E9b0078826bf9e68B6": {
-            address:"0xddea378A6dDC8AfeC82C36E9b0078826bf9e68B6",
-            decimals: 18,
-            symbol: "ZRX",
-            name: "0x",
-            color: "#000000",
-            compound: "0x52201ff1720134bBbBB2f6BC97Bf3715490EC19B",
-            aave: "",
-            yearn: ""
-        },
-        "0x52201ff1720134bBbBB2f6BC97Bf3715490EC19B": {
-            address:"0x52201ff1720134bBbBB2f6BC97Bf3715490EC19B",
-            decimals: 8,
-            symbol: "cZRX",
-            name: "Compound 0x",
-            color: "#000000",
-            compound: "",
-            aave: "",
-            yearn: ""
-        },
-
-        "0xbF7A7169562078c96f0eC1A8aFD6aE50f12e5A99": {
-            address:"0xbF7A7169562078c96f0eC1A8aFD6aE50f12e5A99",
-            decimals: 18,
-            symbol: "BAT",
-            name: "Basic Attention Token",
-            color: "#000000",
-            compound: "0xEBf1A11532b93a529b5bC942B4bAA98647913002",
-            aave: "",
-            yearn: ""
-        },
-        "0xEBf1A11532b93a529b5bC942B4bAA98647913002": {
-            address:"0xEBf1A11532b93a529b5bC942B4bAA98647913002",
-            decimals: 8,
-            symbol: "cBAT",
-            name: "Compound Basic Attention Token",
-            color: "#000000",
-            compound: "",
-            aave: "",
-            yearn: ""
-        },
-    
-
-    },
-    42:{ // KOVAN AAVE ONLY
-        "0x0000000000000000000000000000000000000000": {
-            decimals: 18,
-            symbol: "ETH",
-            name: "Ether",
-            color: "#000000",
-            address:"0x0000000000000000000000000000000000000000",
-            compound:"0x41B5844f4680a8C38fBb695b7F9CFd1F64474a72",
-            aave: "",
-            yearn: ""
-        },
-
-    },
     5:{ // Goerli 
         "0x0000000000000000000000000000000000000000": {
             decimals: 18,
@@ -768,8 +563,6 @@ const ERC20 = {
         },
 
     },
-
-
     137:{ // POLYGON
         // default
         "0x0000000000000000000000000000000000000000": {

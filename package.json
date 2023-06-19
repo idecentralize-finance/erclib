@@ -1,6 +1,6 @@
 {
   "name": "@idecentralize/erclib",
-  "version": "1.5.14",
+  "version": "1.6.0",
   "description": "ERC library for blockchain development",
   "main": "index.js",
   "type": "module",
@@ -31,13 +31,13 @@
     "exchange"
   ],
   "author": "Ian Decentralize",
-  "license": "GPL-3.0",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/idecentralize-finance/erclib/issues"
   },
   "homepage": "https://github.com/idecentralize-finance/erclib#readme",
-
   "directories": {
     "test": "test"
-  }
+  },
+  "devDependencies": {}
 }

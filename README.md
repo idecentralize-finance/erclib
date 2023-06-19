@@ -1,12 +1,10 @@
 # erclib
 [![Version npm](https://img.shields.io/npm/v/@idecentralize/erclib.svg?logo=npm)](https://www.npmjs.com/package/@idecentralize/erclib)
 [![Node.js CI](https://github.com/idecentralize-finance/erclib/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/idecentralize-finance/erclib/actions/workflows/npm-publish.yml)
-
-
+[![Socket Badge](https://socket.dev/api/badge/npm/package/@idecentralize/erclib)](https://socket.dev/npm/package/@idecentralize/erclib)
 
 ERC library for blockchain Development
 
-added colors for network and asset's
 
 In development. More networks, asset's and features are coming...
 
@@ -14,56 +12,61 @@ In development. More networks, asset's and features are coming...
 
 ```npm install @idecentralize/erclib```
 
-```import ERC20 from "@idecentralize/erclib"```
-
 > *address should be checksumed*
 
 ## Usage
 
-set the chain ID
+### Retrieve the chain id from your current provider or configuration
+```javascript
+// using ethersV6
+import {BrowserProvider} from "ethers";
+const provider = new BrowserProvider(window.ethereum);
+const chainId = (await PROVIDER.getNetwork()).chainId.toString() 
+```
 
-```const chainId = 137 // Polygon ```
+### import your library
+   - ERC20
+   - ERC721 
+   - NETWORK
+   - ROUTER
+   - IPFS_SVG_PATH
 
-for non ethereum metamask (not included ny default in metamask)
+Example of the NETWORK object entry
+```javascript
+        id: 137,
+        network: "Polygon",
+        chain: "MATIC",
+        chainId: 137,
+        type: "Mainnet",
+        rpc:"https://polygon-rpc.com",
+        explorer: "https://polygonscan.com/address/",
+        color: "#8247e5",
+        defaultNFT: "0x5265535c7
+```
 
-you can get the RPC, explorer to add the rpc to metamask or connect to the selected network
+Show the chain native currency logo
+```javascript
+import {IPFS_SVG_PATH, NETWORK} from "@idecentralize/erclib";
+<Network src={`${IPFS_SVG_PATH}${NETWORK[chainId].chain}.svg`}/>
+   
+```
 
-``` NETWORK[chainId].rpc // output the rpc URI```
+```javascript 
+const rpc = NETWORK[chainId].rpc
+const usdc = "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48";
+const decimals = ERC20[chainId][usdc].decimals 
+const CToken = ERC20[chainId][usdc].compound
+const color = ERC20[chainId][usdc].colors
+```
 
-get the asset into on the specific network.
-
-```const usdc = "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"```
-
-```ERC20[chainId][usdc].decimals  // output decimals of asset```
-
-```ERC20[chainId][usdc].compound  // output cToken address```
-
-```ERC20[chainId][usdc].colors  // HTML color```
-
-
-## SVG LOGO
-
-```import IPFS_SVG_PATH from "@idecentralize/erclib"```
-
-
-```<image src={IPFS_SVG_PATH + ERC20[network_id][usdc].symbol + '.svg'} alt={ERC20[network_id][usdc].symbol} />```
-
-## FORKING
-
-network_id should be the chain id return by the provider.
-When forking the mainnet using hardhat, the network id is 31337 and we want to use the mainnet asset under network id 1.
-
-
-```ERC20[network_id === 31337 ? 1 : network_id][usdc].decimals  // output decimals of asset```
-
-This will use the mainnet id on the library when forking.
-
-
-
-
-
+> FORKING :
+> network_id should be the chain id return by the provider.
+> When forking the mainnet using hardhat, the network id is 31337 and we want to use the mainnet asset under network id 1.
 
 
+```javascript
+ERC20[network_id === 31337 ? 1 : network_id][usdc].decimals  // output decimals of asset
+```
 
 # Supported Network
 - IPFS
@@ -74,7 +77,6 @@ This will use the mainnet id on the library when forking.
 - Avanlance
 - xDai
 
-
 # Supported Testnet & protocols
 
 - Compound 
@@ -83,6 +85,6 @@ This will use the mainnet id on the library when forking.
 
 Please report any issues!
 
-To have add some assets please submit a PR and provide the SVG logo.
+To add some assets, please submit a PR and provide the new IPFS CID.
 
 
