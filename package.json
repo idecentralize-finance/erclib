@@ -1,14 +1,9 @@
 {
   "name": "@idecentralize/erclib",
-  "version": "1.6.0",
+  "version": "1.6.1",
   "description": "ERC library for blockchain development",
   "main": "index.js",
   "type": "module",
-  "scripts": {
-    "coverage": " nyc report --reporter=text-lcov | coveralls",
-    "build-test": "nyc --reporter lcov --reporter nyan mocha ./test/index.js --reporter nyc",
-    "test": "nyc --reporter=lcov --reporter=text-lcov  --all mocha "
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/idecentralize-finance/erclib.git"
@@ -35,9 +30,5 @@
   "bugs": {
     "url": "https://github.com/idecentralize-finance/erclib/issues"
   },
-  "homepage": "https://github.com/idecentralize-finance/erclib#readme",
-  "directories": {
-    "test": "test"
-  },
-  "devDependencies": {}
+  "homepage": "https://github.com/idecentralize-finance/erclib#readme"
 }
