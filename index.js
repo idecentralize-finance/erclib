@@ -111,6 +111,17 @@ const NETWORK =
         color: "#8247e5",
         defaultNFT: "0x5265535c70664EE54c8584bf7Fe62bBD2558A25C"
     },
+    1337: {
+        id: 137,
+        network: "Hardhat",
+        chain: "ETH",
+        chainId: 1337,
+        type: "Local",
+        rpc:"",
+        explorer: "",
+        color: "#f5e342",
+        defaultNFT: ""
+    },
     80001: {
         id: 80001,
         network: "Mumbai",
