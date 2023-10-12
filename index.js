@@ -100,6 +100,16 @@ const NETWORK =
         explorer: "https://goerli.etherscan.io/address/",
         color: "#393939"
     },
+    11155111: {
+        id: 11155111,
+        network: "Sepolia",
+        chain: "ETH",
+        chainId: 11155111,
+        type: "Testnet",
+        rpc: "https://sepolia.infura.io/v3/640daef0814a43b4a17f9eea18bd9041",
+        explorer: "https://sepolia.etherscan.io/address/",
+        color: "#393939"
+    },
     137: {
         id: 137,
         network: "Polygon",
